@@ -3,6 +3,7 @@ Created on Sep 9, 2024
 
 @author: ogracias
 '''
+
 print('Hello world')
 
 # default separator
@@ -32,6 +33,13 @@ print('I am {1} years old, and my favorite color is {0}.'.format(favoriteColor, 
 
 #new formatting
 print(f'I am {myAge} years old, and my favorite color is {favoriteColor}.')
+
+print('\n\n********************')
+print('concatenation')
+print('********************')
+print('Hello my friend' + 'Mary.')
+print('5' + '11')
+print(5 + 11)
 
 
 
