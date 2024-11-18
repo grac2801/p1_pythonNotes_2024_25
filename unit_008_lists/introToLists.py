@@ -3,6 +3,10 @@
 ogracias
 title = Intro to lists
 '''
+<<<<<<< HEAD
+=======
+from pip._vendor.chardet.latin1prober import OTH
+>>>>>>> 7d3604793c1d2243ca1d92f3a70762f8e3ee2a9c
 
 # imports
 import random
