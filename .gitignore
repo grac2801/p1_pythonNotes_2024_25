@@ -1,6 +1,7 @@
 .project
 .pydevproject
 .settings/
-.venv
 p1_env/
 .gitignore
+
+
