@@ -3,5 +3,6 @@
 .settings/
 p1_venv/
 .gitignore
+testing/*
 
 
