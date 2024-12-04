@@ -30,22 +30,22 @@ for each in range(5):
 print('\n\n********************')
 print('#3- range(start, stop)')
 print('********************')
-for i in range(1, 11):
-    print(i, end=" ")
+for letter in range(1, 11):
+    print(letter, end=" ")
 
 print('\n\n********************')
 print('#4- range(start, stop, step)')
 print('********************')
 n = int(input('How many iterations? '))
-for i in range(2, n + 1, 2):
-    print(i)
+for letter in range(2, n + 1, 2):
+    print(letter)
 
 
 print('\n\n********************')
 print('#5- range(start, stop, step)')
 print('********************')
-for i in range(100, 0, -10):
-    print(i)
+for letter in range(100, 0, -10):
+    print(letter)
 
 #===============================================================================
 # student activity:
@@ -55,8 +55,8 @@ for i in range(100, 0, -10):
 #===============================================================================
 same_side_counter = 0
 n = int(input('How many coin tosses? '))
-for i in range(1, n + 1):
-    print('toss # ' + str(i))
+for letter in range(1, n + 1):
+    print('toss # ' + str(letter))
     coin1 = random.randint(0, 1)
     print('coin1:', coin1)
     coin2 = random.randint(0, 1)
@@ -88,12 +88,12 @@ orig_letter = 'a'
 new_letter = '\u2192'
 total_a = 0
 
-for i in orig_phrase:
-    if(i == orig_letter):
+for letter in orig_phrase:
+    if(letter == orig_letter):
         new_phrase += new_letter
         total_a += 1
     else:
-        new_phrase += i
+        new_phrase += letter
 
 print('original phrase:', orig_phrase)
 print('new phrase:', new_phrase)

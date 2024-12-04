@@ -18,8 +18,8 @@ def SelectOnly_d(word) -> int:
     SelectOnly_d('day of the dead') --> 3
     '''
     count = 0
-    for i in word:
-        if i == 'd':
+    for letter in word:
+        if letter == 'd':
             count += 1
     return count
 

@@ -51,7 +51,7 @@ if __name__ == '__main__':
     print('*******************')
     rows = int(input('How many rows? '))
     cols = int(input('How many cols? '))
-    for i in range(rows):
+    for letter in range(rows):
         for j in range(cols):
             print('* ', end = '')
         print()
@@ -70,8 +70,8 @@ if __name__ == '__main__':
     * * * * 
     * * * * *
     '''
-    for i in range(6):
-        for j in range(i):
+    for letter in range(6):
+        for j in range(letter):
             print(f'{"*":2}', end="")
         print()
         
@@ -88,8 +88,8 @@ if __name__ == '__main__':
     *
     '''
     # print(upper_left)
-    for i in range(5, 0, -1):
-        for j in range(i, 0, -1):
+    for letter in range(5, 0, -1):
+        for j in range(letter, 0, -1):
             print(f'{"*":2}', end='')
         print()
     

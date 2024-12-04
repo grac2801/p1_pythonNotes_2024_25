@@ -45,7 +45,7 @@ if __name__ == '__main__':
     
     values = list()
     print(values) #start
-    for i in range(10):
+    for letter in range(10):
         myRandomNum = random.randint(1, 10)
         values.append(myRandomNum)
     print(values)#end
