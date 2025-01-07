@@ -8,6 +8,7 @@ title = Intro to lists
 # imports
 import random
 
+
 # global variables | constants
 
 
