@@ -23,3 +23,15 @@ joe
 marge
 steph
 min
+roster
+nancy
+esther
+swordfish
+stephanie
+alexa
+francis
+pedroza
+jose
+san
+diego
+francisco
