@@ -131,7 +131,7 @@ if __name__ == '__main__':
     hobbies_tuple = 'fishing', 'soccer', 'basketball'
     print('hobbies', hobbies_tuple)
     
-    hobbies_list = list(hobbies_tuple)
+    hobbies_list = list(hobbies_tuple)  
     print('hobbies list', hobbies_list)
     
     print('\n\n*******************')
